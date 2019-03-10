@@ -38,19 +38,19 @@ cacheSolve <- function(x, ...) {
 }
 
 # test matrix
-a<-matrix(c(3,8,4,6),nrow = 2,ncol=2,byrow = TRUE)
-a
+#a<-matrix(c(3,8,4,6),nrow = 2,ncol=2,byrow = TRUE)
+#a
 #      [,1] [,2]
 # [1,]    3    8
 # [2,]    4    6
 
 # determinant is not 0, thus inverse exists
-det(a)
+#det(a)
 # [1] -14
 # test
-b<-makeCacheMatrix(a)
+#b<-makeCacheMatrix(a)
 # grab chached value
-cacheSolve(b)
+#cacheSolve(b)
 # [,1]       [,2]
 # [1,] -0.4285714  0.5714286
 # [2,]  0.2857143 -0.2142857
